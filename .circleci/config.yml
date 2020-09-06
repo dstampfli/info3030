@@ -9,3 +9,5 @@ jobs:
    - run: cd hw01 && mvn test
    - store_test_results:
        path: hw01/target/surefire-reports
+   - store_artifacts:
+       path: hw01/target/my-reports
