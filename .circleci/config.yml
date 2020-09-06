@@ -11,8 +11,3 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-      - run: mvn test
-      - store_test_results:
-          path: target/surefire-reports
-      - store_artifacts:
-          path: target/my-reports
