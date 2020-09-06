@@ -1,5 +1,6 @@
 package edu.uml.info3030.hw01;
 
+import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -15,7 +16,8 @@ public class AppTest
         Service service = new Service1();
         Client client = new ClientA(service);
         String serviceName = client.doSomething();
-        assertTrue(serviceName == "Service 1");
+        //assertTrue(serviceName == "Service 1");
+        assertSame(serviceName, "Service 1");
     }
 
     @Test
@@ -24,7 +26,8 @@ public class AppTest
         Service service = new Service2();
         Client client = new ClientA(service);
         String serviceName = client.doSomething();
-        assertTrue(serviceName == "Service 2");
+        //assertTrue(serviceName == "Service 2");
+        assertSame(serviceName, "Service 2");
     }
 
     @Test
@@ -33,6 +36,7 @@ public class AppTest
         Service service = new Service3();
         Client client = new ClientA(service);
         String serviceName = client.doSomething();
-        assertTrue(serviceName == "Service 3");
+        //assertTrue(serviceName == "Service 3");
+        assertSame(serviceName, "Service 3");
     }
 }
