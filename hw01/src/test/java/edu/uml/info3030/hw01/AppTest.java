@@ -5,7 +5,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 /**
- * Unit test for simple App.
+ * JUnit tests that verify dependency injection is working correctly
  */
 public class AppTest 
 {
