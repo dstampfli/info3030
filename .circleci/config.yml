@@ -5,6 +5,5 @@ jobs:
    - image: 'circleci/openjdk:latest'
    steps:
    - checkout
-   - run: cd hw01
    - run: ls -la
-   - run: mvn test
+   - run: cd hw01 && mvn test
