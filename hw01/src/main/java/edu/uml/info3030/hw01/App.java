@@ -1,9 +1,6 @@
 package edu.uml.info3030.hw01;
 
-/**
- * Public App class that serves as the application entry point
- */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {

@@ -1,1 +1,6 @@
 /home/david/repos/info3030/hw02/src/main/java/edu/uml/info3030/hw02/App.java
+/home/david/repos/info3030/hw02/src/main/java/edu/uml/info3030/hw02/LogToTerminal.java
+/home/david/repos/info3030/hw02/src/main/java/edu/uml/info3030/hw02/MessageLogger.java
+/home/david/repos/info3030/hw02/src/main/java/edu/uml/info3030/hw02/LogToFile.java
+/home/david/repos/info3030/hw02/src/main/java/edu/uml/info3030/hw02/Logger.java
+/home/david/repos/info3030/hw02/src/main/java/edu/uml/info3030/hw02/LogToDatabase.java
