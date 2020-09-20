@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.uml.info3030.hw03.AppTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.uml.info3030.hw03.AppTest" time="0.018" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/david/repos/info3030/hw03/target/surefire/surefirebooter3346849134467554036.jar /home/david/repos/info3030/hw03/target/surefire 2020-09-20T11-52-05_286-jvmRun1 surefire7537060784780475060tmp surefire_03327620790846311257tmp"/>
+    <property name="sun.java.command" value="/home/david/repos/info3030/hw03/target/surefire/surefirebooter17084583405039785875.jar /home/david/repos/info3030/hw03/target/surefire 2020-09-20T19-07-57_410-jvmRun1 surefire11764249310219473632tmp surefire_09307823908686074965tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/david/repos/info3030/hw03/target/test-classes:/home/david/repos/info3030/hw03/target/classes:/home/david/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/david/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/david/repos/info3030/hw03/target/surefire/surefirebooter3346849134467554036.jar"/>
+    <property name="surefire.real.class.path" value="/home/david/repos/info3030/hw03/target/surefire/surefirebooter17084583405039785875.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.8+10-post-Ubuntu-0ubuntu120.04"/>
     <property name="user.name" value="david"/>
@@ -57,5 +57,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="edu.uml.info3030.hw03.AppTest" time="0.001"/>
+  <testcase name="testMyHashMap1" classname="edu.uml.info3030.hw03.AppTest" time="0"/>
+  <testcase name="testMyHashMap2" classname="edu.uml.info3030.hw03.AppTest" time="0"/>
+  <testcase name="testMyPrinterMethod" classname="edu.uml.info3030.hw03.AppTest" time="0.001"/>
+  <testcase name="testMyContainer1" classname="edu.uml.info3030.hw03.AppTest" time="0"/>
+  <testcase name="testMyContainer2" classname="edu.uml.info3030.hw03.AppTest" time="0"/>
 </testsuite>
