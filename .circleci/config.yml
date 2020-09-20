@@ -11,8 +11,20 @@ jobs:
         path: hw01/target/surefire-reports
     - store_artifacts:
         path: hw01/target/classes
+  build_hw02:
+    docker:
+    - image: 'circleci/openjdk:latest'
+    steps:
+    - checkout
+    - run: ls -la
+    - run: cd hw02 && mvn test
+    - store_test_results:
+        path: hw02/target/surefire-reports
+    - store_artifacts:
+        path: hw02/target/classes
 workflows:
  version: 2.1
  main:
     jobs:
        - build_hw01
+       - build_hw02
